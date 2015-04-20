@@ -32,9 +32,9 @@ position: relative;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.carousel{
+#myCarousel{
 	min-height: 400px;
-	width: 100%;
+	
 	
 }
 .superText{
@@ -62,11 +62,15 @@ position: relative;
 }
 
 .threeCol{
-	min-height: 400px;
+	min-height: 700px;
 }
 
 #services{
-	
+	background: url("../images/blurry.png") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
 .threeCol > .navSpacerL{
 	min-height: 400px;
@@ -199,6 +203,7 @@ button{
 img{
   margin:auto;
   width: 100%;
+  max-height: 800px;
 }
 .ind{
 	text-align: center;
@@ -208,6 +213,7 @@ img{
 	width: 100%;
 	left:0%;
 	margin-left: 0%;
+	margin-bottom:-20px;
 }
 .carousel-caption{
 	text-align: left;
