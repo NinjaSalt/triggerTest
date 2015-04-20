@@ -38,10 +38,8 @@ $('#myCarousel2').bind('slid', function() {
 
     $('.carousel-linked-nav .active').removeClass('active');
 
-    // get index of currently active item
     var idx = $('#myCarousel2 .item.active').index();
 
-    // select currently active item and add active class
     $('.carousel-linked-nav li:eq(' + idx + ')').addClass('active');
 
 });
